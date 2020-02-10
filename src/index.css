@@ -11,3 +11,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.main{
+  margin: 0 auto;
+  width: 220px;
+} 
+.cont{
+  display: flex;
+  background: rgb(18, 180, 180);
+  border: 1px solid silver;
+  position: relative;
+}
+img{
+  border-radius: 50%;
+  width: 50px;
+  padding: 3px;
+}
+h6{
+
+  padding-top: 5px;
+  margin: 0;
+}
+span{
+  display: block;
+  margin-top: 10px;
+}
+
+.online{
+  border: 2px solid silver;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: green;
+  position: absolute;
+  /* position: relative; */
+  left: 42px;
+  bottom: 11px;
+}
